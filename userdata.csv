@@ -1,0 +1,16 @@
+function saveToCsvFile($username, $password)
+{
+    $userData = [$username, $password];
+
+    // Specify the path to the CSV file
+    $filePath = 'userdata.csv';
+
+    // Open the CSV file in append mode
+    $file = fopen($filePath, 'a');
+
+    // Write the user data to the CSV file
+    fputcsv($file, $userData);
+
+    // Close the file
+    fclose($file);
+}

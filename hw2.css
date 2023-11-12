@@ -1,0 +1,60 @@
+.gallery {
+    display:inline-block;
+}
+nav {
+    float: left;
+    width: 200px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gallery a {
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+.modal {
+    display:none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.modal:target{
+    display: block;
+}
+
+.modal img {
+    margin: 10px;
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+}
+
+.modal a.close {
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.modal a.close:hover{
+    text-decoration: underline;
+}

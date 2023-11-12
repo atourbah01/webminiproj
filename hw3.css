@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    background-color: #fff;
+    font-family: monospace;
+}
+nav {
+    float: left;
+    width: 200px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.container{
+    width:auto;
+    padding:0;
+    background-color: #fff;
+}
+.container h1{
+text-align: center;
+color: black;
+background-color: royalblue;
+}
+.container p{
+    font-size: 30px;
+    line-height: 1.5;
+    color: thistle;
+}
+.contact-info{
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.contact-info h2{
+    color: springgreen;
+}
+.contact-info p{
+    font-size: 17px;
+}
